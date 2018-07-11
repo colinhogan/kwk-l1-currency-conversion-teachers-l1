@@ -12,7 +12,7 @@ def eur_to_usd(amount)
 end   
 
 
-def usd_to_jpy(amount)
+def usd_to_jpy
   jpy = amount *(1/0.009 )
   return jpy
 end 
