@@ -24,12 +24,12 @@ end
 
 
 def usd_to_gbp(amount)
-  gbp = amount* ()
+  gbp = amount* (1/0.75)
   return gbp
 end
 
 def gbp_to_usd(amount)
-  usd = amount *()
+  usd = amount *(0.75)
   return usd
 end
 
