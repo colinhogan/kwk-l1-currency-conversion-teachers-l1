@@ -2,45 +2,45 @@
 
 def usd_to_eur(amount)
   eur=amount*(0.85/1)
-  return eur 
+  puts eur 
 end
 
 
 def eur_to_usd(amount)
   usd=amount*(1/0.85)
-  return usd 
+  puts usd 
 end   
 
 
 def usd_to_jpy(amount)
   jpy = amount *(1/0.009 )
-  return jpy
+  puts jpy
 end 
 
 def jpy_to_usd(amount)
   usd = amount * (0.009/1)
-  return usd 
+  puts usd 
 end
 
 
 def usd_to_gbp(amount)
   gbp = amount* (1/0.75)
-  return gbp
+  puts gbp
 end
 
 def gbp_to_usd(amount)
   usd = amount *(0.75)
-  return usd
+  puts usd
 end
 
 def usd_to_aud(amount)
   aud=amount*(1/1.35)
-  return aud
+  puts aud
 end
 
 def aud_to_usd(amount)
   usd = amount*(1.35)
-  return usd
+  puts usd
 end
 
 puts "How much money do you want to convert?"
