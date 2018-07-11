@@ -13,12 +13,12 @@ end
 
 
 def usd_to_jpy(amount)
-  jpy = amount *(1/0.0009 )
+  jpy = amount *(1/0.009 )
   return jpy
 end 
 
 def jpy_to_usd(amount)
-  usd = amount * ()
+  usd = amount * (0.009/1)
   return usd 
 end
 
